@@ -1,0 +1,32 @@
+.grid {
+    width: 400px;
+    height: 600px;
+    background: url('./1.jpg');
+    position: relative;
+    font-size: 200px;
+    text-align: center;
+}
+
+.doodler {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+
+.platform {
+    width: 85px;
+    height: 15px;
+    background-color: green;
+    position: absolute;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEB; /* Sky blue background color */
+    overflow: hidden; /* Hide overflow for a cleaner look */
+}
